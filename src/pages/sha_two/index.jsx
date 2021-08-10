@@ -2,7 +2,7 @@ import {toUint8Array, addLeadingZero} from './../../helpers'
 import OutputCode from '../../components/OutputCode';
 
 export default function() {
-    const msg = 'hi';
+    const msg = 'hitest';
     const uint8Array = toUint8Array(msg);
     
     console.log(uint8Array);
